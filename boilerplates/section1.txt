@@ -12,7 +12,10 @@ pd.options.mode.use_inf_as_na = True
 
 
 
+from google.colab import files
 
+kaggle_fake.to_csv('df.csv')
+files.download('df.csv')
 
 
 
