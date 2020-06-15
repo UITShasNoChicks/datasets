@@ -1,0 +1,18 @@
+
+
+
+
+
+
+from google.colab import files
+
+kaggle_fake.to_csv('df.csv')
+files.download('df.csv')
+
+
+
+
+
+
+
+
